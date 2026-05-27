@@ -70,6 +70,11 @@ json = [
 */
 
 
+
+if (localStorage.getItem("base_myfirstbase") == null) {
+  localStorage.setItem("base_myfirstbase", `[{},{"id":1,"name":"Стол","quantity":"1","recipe":[{"ingredient_id":"2","quantity":"1","unit":"шт","pic":"https://i3.imageban.ru/out/2026/05/26/81580215098e9bca29b0932061795aca.png"},{"ingredient_id":"3","quantity":"1","unit":"шт","pic":"https://i3.imageban.ru/out/2026/05/26/81580215098e9bca29b0932061795aca.png"},{"ingredient_id":"4","quantity":"4","unit":"шт","pic":"https://i3.imageban.ru/out/2026/05/26/81580215098e9bca29b0932061795aca.png"},{"ingredient_id":"5","quantity":"4","unit":"шт","pic":"https://i3.imageban.ru/out/2026/05/26/81580215098e9bca29b0932061795aca.png"}],"pic":"https://i3.imageban.ru/out/2026/05/26/81580215098e9bca29b0932061795aca.png"},{"id":2,"name":"Столешница","quantity":"2","recipe":[{"ingredient_id":"6","quantity":"1","unit":"шт","pic":"https://i7.imageban.ru/out/2026/05/26/4bc54b2f60108ef5af2c41abf5058314.png"}],"pic":"https://i7.imageban.ru/out/2026/05/26/4bc54b2f60108ef5af2c41abf5058314.png"},{"id":3,"name":"Царга","quantity":"2","recipe":[{"ingredient_id":"6","quantity":"1","unit":"шт","pic":"https://i2.imageban.ru/out/2026/05/26/2f3e73f87878e50f0bd93335b73cbcef.png"}],"pic":"https://i2.imageban.ru/out/2026/05/26/2f3e73f87878e50f0bd93335b73cbcef.png"},{"id":4,"name":"Ножка","quantity":"3","recipe":[{"ingredient_id":"6","quantity":"1","unit":"шт","pic":"https://i3.imageban.ru/out/2026/05/26/4e0ba1a6a97047c16ebc7569e57f0184.png"}],"pic":"https://i3.imageban.ru/out/2026/05/26/4e0ba1a6a97047c16ebc7569e57f0184.png"},{"id":5,"name":"Евровинт","quantity":"10","recipe":null,"pic":"https://i2.imageban.ru/out/2026/05/26/20e34073df9365c3d8bd532d1532a6c8.png"},{"id":6,"name":"ЛДСП","quantity":"1","recipe":null,"pic":"https://i2.imageban.ru/out/2026/05/26/4670f0a780b8406925fb0252e37c821b.png"}]`)
+}
+
 basekey1 = "base_myfirstbase"
 
 
