@@ -1,0 +1,29 @@
+select {
+    background-color: #005499;
+    /* Более светлый темно-синий */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    /* Убираем стандартный стиль */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    width: 22vh;
+    margin-right: 1vh;
+
+}
+
+select:hover {
+    background-color: #003153;
+    /* Темнее при наведении */
+}
+
+select:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
